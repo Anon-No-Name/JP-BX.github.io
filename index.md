@@ -13,13 +13,14 @@ Hi, I'm Jumaane Pond, and in this personal project, I built an Active Directory 
 # Lab Diagram
 ![AD Project drawio](https://github.com/user-attachments/assets/7f01f634-2d8e-44f5-a0c4-7692bd9f230f)
 
-This diagram illustrates the lab setup and the data flow between each system.
+This diagram illustrates the lab setup and the data flow between each system. 
 
-## Header 2
+# Active Directory Setup
+![862bf9d882d38eda731787348bf9deb7](https://github.com/user-attachments/assets/626561bd-6e50-4059-9897-921c8c2a1360)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+
+
+
 
 ### Header 3
 
