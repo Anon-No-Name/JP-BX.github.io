@@ -2,9 +2,9 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Hi, I'm Jumaane Pond, and in this personal project, I built an Active Directory home lab incorporating Splunk, Kali Linux, Sysmon, and Atomic Red Team. The setup simulates a real-world environment where attacks occur, and events are monitored through a SIEM.
 
-[Link to another page](./another-page.html).
+
 
 There should be whitespace between paragraphs.
 
