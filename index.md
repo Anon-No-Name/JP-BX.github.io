@@ -22,7 +22,10 @@ I used Oracle VM to host all the servers and connected them on a NAT network
 # Active Directory Setup
 ![fb0419984e90344f1ad6a5fd6019b181](https://github.com/user-attachments/assets/25d5e680-4fe7-4300-9583-97110a126a1e)
 ![d53fc56ed78a76a346b76140323e06f8](https://github.com/user-attachments/assets/bb307381-4cfc-4575-b677-ce52bb69015d)
-![758a02ea5baacbab939203bdfa6704b2](https://github.com/user-attachments/assets/6910596e-1b84-4b8f-a872-112ea8db6d20)![1b2761e5a42d6e81865eac4a337dc1a3](https://github.com/user-attachments/assets/374580ed-c1ff-4a2f-b85a-bde37c872fa6)
+![1b2761e5a42d6e81865eac4a337dc1a3](https://github.com/user-attachments/assets/2c3771b1-80a9-4234-89bf-4716c1e9572b)![758a02ea5baacbab939203bdfa6704b1](https://github.com/user-attachments/assets/13471d53-cd7b-4b78-a830-6222a2e72249)
+
+
+
 
 
 
