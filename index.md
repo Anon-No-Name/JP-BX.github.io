@@ -19,7 +19,7 @@ This diagram illustrates the lab setup and the data flow between each system.
 
 I used Oracle VM to host all the servers and connected them on a NAT network
 
-# Active Directory Setup
+# Active Directory Configuration
 ![fb0419984e90344f1ad6a5fd6019b181](https://github.com/user-attachments/assets/25d5e680-4fe7-4300-9583-97110a126a1e)
 ![d53fc56ed78a76a346b76140323e06f8](https://github.com/user-attachments/assets/bb307381-4cfc-4575-b677-ce52bb69015d)
 ![1b2761e5a42d6e81865eac4a337dc1a3](https://github.com/user-attachments/assets/2f47482c-5d88-4ad1-bddb-ab4c5bff2c76)![758a02ea5baacbab939203bdfa6704b1](https://github.com/user-attachments/assets/919af5f9-610d-418b-a217-f7c72e5c0179)
@@ -37,38 +37,25 @@ I used Oracle VM to host all the servers and connected them on a NAT network
 
 
 
-# Splunk Server 
+# Splunk Server Configuration
 ![0a56b967f32fc4234ce0e908678d428f](https://github.com/user-attachments/assets/854c7420-ab2e-4903-ae1d-9ef048ca519b)
 ![45c88f4add6aa17cba8c660bb394a87b](https://github.com/user-attachments/assets/a37519be-7c53-4e68-b576-380002afb600)
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
 
-#### Header 4
+# Windows 10 Configuration
 
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 *   This is an unordered list following a header.
 
-##### Header 5
+# Kali Linux Configuration
 
 1.  This is an ordered list following a header.
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### Header 6
+# Final Results
 
 | head1        | head two          | three |
 |:-------------|:------------------|:------|
