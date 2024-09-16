@@ -37,7 +37,9 @@ I used Oracle VM to host all the servers and connected them on a NAT network
 
 
 
-### Header 3
+# Splunk Server 
+![0a56b967f32fc4234ce0e908678d428f](https://github.com/user-attachments/assets/854c7420-ab2e-4903-ae1d-9ef048ca519b)
+![45c88f4add6aa17cba8c660bb394a87b](https://github.com/user-attachments/assets/a37519be-7c53-4e68-b576-380002afb600)
 
 ```js
 // Javascript code with syntax highlighting.
