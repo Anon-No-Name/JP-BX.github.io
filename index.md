@@ -15,8 +15,14 @@ Hi, I'm Jumaane Pond, and in this personal project, I built an Active Directory 
 
 This diagram illustrates the lab setup and the data flow between each system. 
 
-# Active Directory Setup
 ![862bf9d882d38eda731787348bf9deb7](https://github.com/user-attachments/assets/626561bd-6e50-4059-9897-921c8c2a1360)
+
+I used Oracle VM to host all the servers and connected them on a NAT network
+
+# Active Directory Setup
+![fb0419984e90344f1ad6a5fd6019b181](https://github.com/user-attachments/assets/25d5e680-4fe7-4300-9583-97110a126a1e)
+![fb0419984e90344f1ad6a5fd6019b181](https://github.com/user-attachments/assets/effba3b6-748e-419d-8a6d-fd236851408b)
+
 
 
 
