@@ -58,11 +58,12 @@ I used Oracle VM to host all the servers and connected them on a NAT network
 
 # Kali Linux Configuration
 
-![ec52880bd54476893377e156ec0fe085](https://github.com/user-attachments/assets/feb678e0-fe20-44f2-a1c4-9b83076cea7b)
-![318d25b2f86d89d8825e90135b20eb8d](https://github.com/user-attachments/assets/9aa43855-6839-4d06-8475-a9a78687919e)
+![ec52880bd54476893377e156ec0fe085](https://github.com/user-attachments/assets/30f65528-8462-4184-ae7e-18e51e50669d)
 ![9824a83103461e1cc00a6a5ca5e53875](https://github.com/user-attachments/assets/b5a00c1f-400f-43a3-b16e-d30438e88699)
 ![a376e330f02352567ebb0634c10f99d0](https://github.com/user-attachments/assets/0ac30a59-51ba-4ab0-9ce1-ae090e6aec43)
-![9824a83103461e1cc00a6a5ca5e53875](https://github.com/user-attachments/assets/cb15606f-1a40-43ef-b5fc-e6a8c8a742a3)
+![318d25b2f86d89d8825e90135b20eb8d](https://github.com/user-attachments/assets/9aa43855-6839-4d06-8475-a9a78687919e)
+
+
 
 
 # Final Results
