@@ -59,66 +59,34 @@ I used Oracle VM to host all the servers and connected them on a NAT network
 # Kali Linux Configuration
 
 ![ec52880bd54476893377e156ec0fe085](https://github.com/user-attachments/assets/30f65528-8462-4184-ae7e-18e51e50669d)
-![9824a83103461e1cc00a6a5ca5e53875](https://github.com/user-attachments/assets/b5a00c1f-400f-43a3-b16e-d30438e88699)
-![a376e330f02352567ebb0634c10f99d0](https://github.com/user-attachments/assets/0ac30a59-51ba-4ab0-9ce1-ae090e6aec43)
 ![318d25b2f86d89d8825e90135b20eb8d](https://github.com/user-attachments/assets/9aa43855-6839-4d06-8475-a9a78687919e)
+![a376e330f02352567ebb0634c10f99d0](https://github.com/user-attachments/assets/0ac30a59-51ba-4ab0-9ce1-ae090e6aec43)
+![9824a83103461e1cc00a6a5ca5e53875](https://github.com/user-attachments/assets/b5a00c1f-400f-43a3-b16e-d30438e88699)
 
 
 
 
 # Final Results
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
 
-### Definition lists can be used with HTML syntax.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <dl>
 <dt>Name</dt>
