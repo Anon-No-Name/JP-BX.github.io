@@ -80,6 +80,11 @@ The use of the Crowbar brute force tool in this demonstration is strictly for ed
 
 # Final Results
 
+
+After launching a brute force attack on my Windows 10 machine, I checked Splunk for activity on the IP address (192.198.10.10:8000). My Splunk index, named "endpoint," on port 9997, allows me to track attack information by using the query "index=endpoint." Upon reviewing the network data, I observed suspicious activity originating from my Kali machine, which I had assigned the IP address (192.168.10.250).
+
+Digging deeper into the logs, I noticed two standout Windows Security Log event IDs: 4625 and 4624. Event ID 4625 indicates a failed login attempt, while 4624 represents a successful login. This suggests that the failed login attempts were the result of incorrect passwords, and the successful login likely occurred after a brute force attack succeeded. A spike in failed login events is always a critical indicator worth further investigation.
+
 ![3885d1bfd656fcaaa5ea3a39b006188d](https://github.com/user-attachments/assets/12a2c7a9-4f2e-49a7-a7c7-88740e1a53eb)
 ![1f46b739bfc3a32fd011a91618a45838](https://github.com/user-attachments/assets/4b90c5c3-412c-43dd-99b3-1171a8f6f8b5)
 ![98b7ad089da2b37145372e1b69de645e](https://github.com/user-attachments/assets/1d6e9e40-1dfa-40b3-911f-017a87db8bef)
