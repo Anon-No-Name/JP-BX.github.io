@@ -22,7 +22,7 @@ I used Oracle VM to host all the servers and connected them on a NAT network
 
 # Active Directory Configuration
 
-First, I set a static IP address (192.168.10.7) and verified connectivity to my Splunk server via the command line. In Server Manager, I installed Active Directory Domain Services and set the domain name to JSP.Local. In Active Directory Users and Computers, I created two users, Terry Pond and Jerry Smith, as well as two groups, HR and IT. I also installed Sysmon to monitor system activity and configured the Splunk Forwarder to send data to my Splunk server.
+For my windows server I set a static IP address (192.168.10.7) and verified connectivity to my Splunk server via the command line. In Server Manager, I installed Active Directory Domain Services and set the domain name to JSP.Local. In Active Directory Users and Computers, I created two users, Terry Pond and Jerry Smith, as well as two groups, HR and IT. I also installed Sysmon to monitor system activity and configured the Splunk Forwarder to send data to my Splunk server.
 
 ![fb0419984e90344f1ad6a5fd6019b181](https://github.com/user-attachments/assets/25d5e680-4fe7-4300-9583-97110a126a1e)
 ![d53fc56ed78a76a346b76140323e06f8](https://github.com/user-attachments/assets/bb307381-4cfc-4575-b677-ce52bb69015d)
@@ -51,6 +51,8 @@ On the Splunk server, I opened the /etc/netplan/00-installer-config.yaml file to
 
 
 # Windows 10 Configuration
+
+On my Windows 10 server (target server), I set a static IP address of 192.168.10.100. After that, I installed Splunk Universal Forwarder and Sysmon64. I then edited the inputs.conf file to create an index named "endpoint," so Splunk knows where to send the data. I also created a custom index in Splunk and configured all my traffic to route to the "endpoint" index. Lastly, I used PowerShell to download Atomic Red Team to test the system's defenses.
 
 ![bcfaadf413656ddb558afe7955a571ec](https://github.com/user-attachments/assets/12fb6d1f-dcd7-4b75-879f-66ea85eb067e)
 ![3716d3d0ebc40877a4b8fa1d53b7e10b](https://github.com/user-attachments/assets/6c44eb4a-3a69-4a8d-80b8-4acfd1a2498d)
