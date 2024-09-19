@@ -64,6 +64,12 @@ On my Windows 10 server (target server), I set a static IP address of 192.168.10
 
 # Kali Linux Configuration
 
+According to Verizon, 89% of web application hacking attempts involve brute force attacks or credential abuse. The 2024 Data Breach Investigations Report also indicates that brute force attacks make up 21% of all basic web application attacks.
+
+On my Kali machine (the attacker machine), I set the IP address to 192.168.10.250 and installed Crowbar, a well-known brute force attack tool. Afterward, I unzipped the rockyou.txt.gz file, which provides a text document containing multiple passwords for use in the attack. I then ran the command crowbar -b rdp -u tpond -C passwords.txt 192.168.10.100/32 to instruct Crowbar to launch a brute force attack, specifying RDP (Remote Desktop Protocol) for the user 'tpond' using the passwords.txt file. This command targeted my Windows 10 machine and resulted in a successful login.
+
+The use of the Crowbar brute force tool in this demonstration is strictly for educational and authorized testing purposes only. It is intended to demonstrate security vulnerabilities and highlight the importance of securing systems. Unauthorized access to systems or accounts, as well as using Crowbar to target any network, server, or device without explicit permission, is illegal and unethical.
+
 ![ec52880bd54476893377e156ec0fe085](https://github.com/user-attachments/assets/30f65528-8462-4184-ae7e-18e51e50669d)
 ![318d25b2f86d89d8825e90135b20eb8d](https://github.com/user-attachments/assets/9aa43855-6839-4d06-8475-a9a78687919e)
 ![a376e330f02352567ebb0634c10f99d0](https://github.com/user-attachments/assets/0ac30a59-51ba-4ab0-9ce1-ae090e6aec43)
