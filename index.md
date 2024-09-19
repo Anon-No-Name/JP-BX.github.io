@@ -85,6 +85,10 @@ After launching a brute force attack on my Windows 10 machine, I checked Splunk 
 
 Digging deeper into the logs, I noticed two standout Windows Security Log event IDs: 4625 and 4624. Event ID 4625 indicates a failed login attempt, while 4624 represents a successful login. This suggests that the failed login attempts were the result of incorrect passwords, and the successful login likely occurred after a brute force attack succeeded. A spike in failed login events is always a critical indicator worth further investigation.
 
+Depending on the work environment, there are several approaches you can take to address a successful brute force attack. One of the first steps is to disconnect the compromised machine from the network to prevent malware from spreading and to stop the attacker from gaining further access. Next, review system logs to trace the attacker's actions after the successful login.  It’s essential to lock down the compromised account, force a password reset, and immediately implement Multi-Factor Authentication (MFA) for added security. Conduct a thorough malware scan on the affected system, apply security patches, and update software. If necessary, restore the system from a clean backup to ensure integrity and stability.
+
+In the Atomic folder within Atomic Red Team, you can find specific test IDs used to evaluate your system's defenses against particular threats. These tests can be paired with the MITRE ATT&CK framework to gain deeper insights into how attackers operate and how to strengthen your defenses. By aligning Atomic Red Team tests with MITRE ATT&CK techniques, you can better understand vulnerabilities and improve your system's overall security posture.
+
 ![3885d1bfd656fcaaa5ea3a39b006188d](https://github.com/user-attachments/assets/12a2c7a9-4f2e-49a7-a7c7-88740e1a53eb)
 ![1f46b739bfc3a32fd011a91618a45838](https://github.com/user-attachments/assets/4b90c5c3-412c-43dd-99b3-1171a8f6f8b5)
 ![98b7ad089da2b37145372e1b69de645e](https://github.com/user-attachments/assets/1d6e9e40-1dfa-40b3-911f-017a87db8bef)
@@ -116,9 +120,7 @@ Digging deeper into the logs, I noticed two standout Windows Security Log event 
 
 
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+
 
 ```
 Thank you for taking the time to review my project.
