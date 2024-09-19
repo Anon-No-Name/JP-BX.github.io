@@ -43,6 +43,7 @@ First, I set a static IP address (192.168.10.7) and verified connectivity to my 
 
 # Splunk Server Configuration
 
+On the Splunk server, I opened the /etc/netplan/00-installer-config.yaml file to configure the network and set a static IP (192.168.10.0/24). After installing Splunk Enterprise, I ran sudo ./splunk enable boot-start -user splunk, which enables Splunk to start with the 'splunk' user upon server reboot, preventing any permission issues. I then checked the status of the Splunk service by running sudo systemctl status splunk to confirm that the service was active.
 ![0a56b967f32fc4234ce0e908678d428f](https://github.com/user-attachments/assets/854c7420-ab2e-4903-ae1d-9ef048ca519b)
 ![45c88f4add6aa17cba8c660bb394a87b](https://github.com/user-attachments/assets/a37519be-7c53-4e68-b576-380002afb600)
 
